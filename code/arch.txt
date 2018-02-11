@@ -1,0 +1,70 @@
+1. 
+警告：database file for 'core' does not exist
+警告：database file for 'extra' does not exist
+警告：database file for 'community' does not exist
+警告：database file for 'multilib' does not exist
+错误：未找到目标：net-tools
+错误：未找到目标：dnsutils
+错误：未找到目标：inetutils
+错误：未找到目标：iproute2
+
+pacman -Syy
+
+2.
+ifconfig：找不到命令
+
+pacman -S net-tools dnsutils inetutils iproute2
+
+3. 
+修改 mac address
+
+sudo ifconfig wlp2s0 down
+sudo ifconfig wlp2s0 hw ether a6:b7:00:a6:a7:a8
+sudo ifconfig wlp2s0 up
+
+4. 中文输入法
+fcitx
+fcitx-configtool
+fcitx-gtk2
+fcitx-gtk3
+fcitx-googlepinyin
+fcitx-qt4
+
+5.
+chrome安装
+yaourt -S google-chrome
+
+6.App
+目录
+/usr/share/applications
+7。
+echo 'export PYENV_ROOT="$home/junkman/.pyenv"' >> ~/.bash_profile
+echo 'export PATH="$/home/junkman/.pyenv/bin:$/usr/bin"' >> ~/.bash_profile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
