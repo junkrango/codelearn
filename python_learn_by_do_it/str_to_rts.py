@@ -4,10 +4,10 @@ def str_to_rts_version_1(str):
 rts_1 = str_to_rts_version_1(str)
 print (rts_1)
 def str_to_rts_version_2(str):
-    rts = []
-    for i in str :
-        rts.insert
-    return rts
+    result = list(str)
+    result.reverse()
+    a = "".join(result)
+    return a
 rts_2 = str_to_rts_version_2(str)
 print (rts_2)
 
